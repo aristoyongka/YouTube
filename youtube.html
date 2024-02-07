@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+ 
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="">
+        <img class="youtube-logo" src="icons/youtube-logo.svg" alt="">
+      </div>
+
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg" alt="">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg" alt="">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-icon-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="">
+          <div class="tooltip">YouTube Apps</div>
+        </div>
+        <div class="notification-icon-container">
+          <img class="notification-icon" src="icons/notifications.svg" alt="">
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img class="current-user-picture" src="channel-pictures/my-channel.jpg" alt="">
+      </div>
+    </header>
+   
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg" alt="">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg" alt="">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg" alt="">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg" alt="">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg" alt="">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg" alt="">
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY" target="_blank">
+              <img class ="thumbnail" src="thumbnails/thumbnail-1.webp">
+            </a>
+              <div class="video-time">14:20</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@mkbhd" target="_blank">
+                <img class="profile-picture" src="channel-pictures/channel-1.jpeg" alt="">
+              </a>    
+            </div>
+    
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  Talking Tech and AI with Google CEO Sundar Pichai!
+                </p>
+              </a>
+              
+              <a href="https://www.youtube.com/@mkbhd" target="_blank" class="video-author-link">
+                <p class="video-author">
+                  Marques Brownlee
+                </p>
+              </a>
+
+              <p class="video-stats">
+                4.2M views &#183; 2 years ago
+              </p>
+            </div> 
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/mP0RAo9SKZk?si=aAN1QL9-8qtW_Iar" target="_blank">
+              <img class ="thumbnail" src="thumbnails/thumbnail-2.webp">
+            </a>
+              <div class="video-time">8:22</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@markiplier" target="_blank">
+                <img class="profile-picture" src="channel-pictures/channel-2.jpeg" alt="">
+              </a>    
+            </div>
+    
+            <div class="video-info">
+              <a href="https://youtu.be/mP0RAo9SKZk?si=aAN1QL9-8qtW_Iar" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  Try Not To Laught Challenge #9
+                </p>
+              </a>
+              
+              <a href="https://www.youtube.com/@markiplier" target="_blank" class="video-author-link">
+                <p class="video-author">
+                  Marques Brownlee
+                </p>
+              </a>
+
+              <p class="video-stats">
+                21M views &#183; 6 years ago
+              </p>
+            </div> 
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/094y1Z2wpJg?si=NYCU7Me5WC2MhWMV" target="_blank">
+              <img class ="thumbnail" src="thumbnails/thumbnail-3.webp">
+            </a>
+              <div class="video-time">22:08</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@veritasium" target="_blank">
+                <img class="profile-picture" src="channel-pictures/channel-3.jpeg" alt="">
+              </a>    
+            </div>
+    
+            <div class="video-info">
+              <a href="https://youtu.be/094y1Z2wpJg?si=NYCU7Me5WC2MhWMV" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  The Simplest Math Problem No One Can Solve - Collatz Conjecture
+                </p>
+              </a>
+              
+              <a href="https://www.youtube.com/@veritasium" target="_blank" class="video-author-link">
+                <p class="video-author">
+                  Veritasium
+                </p>
+              </a>
+
+              <p class="video-stats">
+                38M views &#183; 2 years ago
+              </p>
+            </div> 
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/86CQq3pKSUw?si=R7qDOjuZa0qkmjtf" target="_blank">
+              <img class ="thumbnail" src="thumbnails/thumbnail-4.webp">
+            </a>
+              <div class="video-time">11:16</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@CSDojo" target="_blank">
+                <img class="profile-picture" src="channel-pictures/channel-4.jpeg" alt="">
+              </a>    
+            </div>
+    
+            <div class="video-info">
+              <a href="https://youtu.be/86CQq3pKSUw?si=R7qDOjuZa0qkmjtf" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  Kadane's Algorithm to Maximum Sum Subarray Problem
+                </p>
+              </a>
+              
+              <a href="https://www.youtube.com/@CSDojo" target="_blank" class="video-author-link">
+                <p class="video-author">
+                  CS Dojo
+                </p>
+              </a>
+
+              <p class="video-stats">
+                4.2M views &#183; 7 years ago
+              </p>
+            </div> 
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/HpUR7-Oe1ss?si=si-rXej5QAIwIpIJ" target="_blank">
+              <img class ="thumbnail" src="thumbnails/thumbnail-5.webp">
+            </a>
+              <div class="video-time">43:36</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@SharkTankGlobal" target="_blank">
+                <img class="profile-picture" src="channel-pictures/channel-5.jpg" alt="">
+              </a>    
+            </div>
+    
+            <div class="video-info">
+              <a href="https://youtu.be/HpUR7-Oe1ss?si=si-rXej5QAIwIpIJ" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  Best Pitches From Seasons 11 | Shark Tank US | Shark Tank Global
+                </p>
+              </a>
+              
+              <a href="https://www.youtube.com/@SharkTankGlobal" target="_blank" class="video-author-link">
+                <p class="video-author">
+                  Shark Tank Global
+                </p>
+              </a>
+
+              <p class="video-stats">
+                1.1M views &#183; 6 months ago
+              </p>
+            </div> 
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/yXWw0_UfSFg?si=fmdotyos_v3ctC7N" target="_blank">
+              <img class ="thumbnail" src="thumbnails/thumbnail-6.webp">
+            </a>
+              <div class="video-time">19:59</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@MrBeast" target="_blank">
+                <img class="profile-picture" src="channel-pictures/channel-6.jpeg" alt="">
+              </a>    
+            </div>
+    
+            <div class="video-info">
+              <a href="https://youtu.be/yXWw0_UfSFg?si=fmdotyos_v3ctC7N" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  Anything You Can Fit In The Circle I'll Pay For
+                </p>
+              </a>
+              
+              <a href="https://www.youtube.com/@MrBeast" target="_blank" class="video-author-link">
+                <p class="video-author">
+                  MrBeast
+                </p>
+              </a>
+
+              <p class="video-stats">
+                281M views &#183; 3 years ago
+              </p>
+            </div> 
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/i0p1bmr0EmE?si=Gs_C9d-n4Vinj-gp" target="_blank">
+              <img class ="thumbnail" src="thumbnails/thumbnail-7.webp">
+            </a>
+              <div class="video-time">3:43</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@JYPEntertainment" target="_blank">
+                <img class="profile-picture" src="channel-pictures/channel-7.jpg" alt="">
+              </a>    
+            </div>
+    
+            <div class="video-info">
+              <a href="https://youtu.be/i0p1bmr0EmE?si=Gs_C9d-n4Vinj-gp" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  TWICE "What is Love?" M/V
+                </p>
+              </a>
+              
+              <a href="https://www.youtube.com/@JYPEntertainment" target="_blank" class="video-author-link">
+                <p class="video-author">
+                  JYP Entertainment
+                </p>
+              </a>
+
+              <p class="video-stats">
+                765M views &#183; 5 years ago
+              </p>
+            </div> 
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/704brywiyfw?si=zIO8pArSu5quOdne" target="_blank">
+              <img class ="thumbnail" src="thumbnails/thumbnail-8.webp">
+            </a>
+              <div class="video-time">23:22</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@PiXimperfect" target="_blank">
+                <img class="profile-picture" src="channel-pictures/channel-8.jpg" alt="">
+              </a>    
+            </div>
+    
+            <div class="video-info">
+              <a href="https://youtu.be/704brywiyfw?si=zIO8pArSu5quOdne" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  End of An Artist's Career? A.I. Creates Art for You! - Complete Guide
+                </p>
+              </a>
+              
+              <a href="https://www.youtube.com/@PiXimperfect" target="_blank" class="video-author-link">
+                <p class="video-author">
+                  PiXimperfect
+                </p>
+              </a>
+
+              <p class="video-stats">
+                6.5M views &#183; 1 years ago
+              </p>
+            </div> 
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/GwT6gGMRr9s?si=gP_5TlAGYYIUQrul" target="_blank">
+              <img class ="thumbnail" src="thumbnails/thumbnail-9.webp">
+            </a>
+              <div class="video-time">5:15</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@FryingPan" target="_blank">
+                <img class="profile-picture" src="channel-pictures/channel-9.jpg" alt="">
+              </a>    
+            </div>
+    
+            <div class="video-info">
+              <a href="https://youtu.be/GwT6gGMRr9s?si=gP_5TlAGYYIUQrul" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  1 Year of Coding in 5 Minutes (Computer Science First Year)
+                </p>
+              </a>
+              
+              <a href="https://www.youtube.com/@FryingPan" target="_blank" class="video-author-link">
+                <p class="video-author">
+                  Frying Pan
+                </p>
+              </a>
+
+              <p class="video-stats">
+                4.3M views &#183; 2 years ago
+              </p>
+            </div> 
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/DHD1-2P94DI?si=PKUl8k7ZYrwOn8iB" target="_blank">
+              <img class ="thumbnail" src="thumbnails/thumbnail-10.webp">
+            </a>
+              <div class="video-time">12:06</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@athleanx" target="_blank">
+                <img class="profile-picture" src="channel-pictures/channel-10.jpg" alt="">
+              </a>    
+            </div>
+    
+            <div class="video-info">
+              <a href="https://youtu.be/DHD1-2P94DI?si=PKUl8k7ZYrwOn8iB" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  Intense Ab Workout | 7 Minutes (FOLLOW ALONG!)
+                </p>
+              </a>
+              
+              <a href="https://www.youtube.com/@athleanx" target="_blank" class="video-author-link">
+                <p class="video-author">
+                  MATHLEAN-X™
+                </p>
+              </a>
+
+              <p class="video-stats">
+                23M views &#183; 5 years ago
+              </p>
+            </div> 
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/sEQf5lcnj_o?si=3incm7khU1JH1OXj" target="_blank">
+              <img class ="thumbnail" src="thumbnails/thumbnail-11.webp">
+            </a>
+              <div class="video-time">4:08</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@Animenzzz" target="_blank">
+                <img class="profile-picture" src="channel-pictures/channel-11.jpg" alt="">
+              </a>    
+            </div>
+    
+            <div class="video-info">
+              <a href="https://youtu.be/sEQf5lcnj_o?si=3incm7khU1JH1OXj" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  Unravel - Tokyo Ghoul OP [Piano]
+                </p>
+              </a>
+              
+              <a href="https://www.youtube.com/@Animenzzz" target="_blank" class="video-author-link">
+                <p class="video-author">
+                  Animenz Piano Sheet
+                </p>
+              </a>
+
+              <p class="video-stats">
+                94M views &#183; 8 years ago
+              </p>
+            </div> 
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/iONDebHX9qk?si=lhQgrm8_4q7lBh-Q" target="_blank">
+              <img class ="thumbnail" src="thumbnails/thumbnail-12.webp">
+            </a>
+              <div class="video-time">11:48</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@aliabdaal" target="_blank">
+                <img class="profile-picture" src="channel-pictures/channel-12.jpg" alt="">
+              </a>    
+            </div>
+    
+            <div class="video-info">
+              <a href="https://youtu.be/iONDebHX9qk?si=lhQgrm8_4q7lBh-Q" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  How I Manage My Time - 10 Time Management Tips
+                </p>
+              </a>
+              
+              <a href="https://www.youtube.com/@aliabdaal" target="_blank" class="video-author-link">
+                <p class="video-author">
+                  Ali Abdaal
+                </p>
+              </a>
+
+              <p class="video-stats">
+                4.6M views &#183; 2 years ago
+              </p>
+            </div> 
+          </div>
+        </div>
+        
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-container"></div>
+    </footer>
+  </body>
+</html>
